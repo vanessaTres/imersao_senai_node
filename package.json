@@ -1,0 +1,17 @@
+{
+  "name": "imersao_senai_node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^5.7.4",
+    "pg": "^8.18.0"
+  }
+}
