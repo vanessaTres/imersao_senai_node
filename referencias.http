@@ -1,3 +1,22 @@
 ###
 
 Get http://localhost:3000/usuarios
+
+
+###
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "Vanessa",
+    "senha": "12345"
+}
+
+###
+PUT http://localhost:3000/usuarios/2
+Content-Type: application/json
+
+{
+    "nome": "PIKACHU'",
+    "senha": "12345"
+}
