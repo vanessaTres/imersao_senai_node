@@ -1,17 +1,12 @@
 {
-  "name": "imersao_senai_node",
-  "version": "1.0.0",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node --watch server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "fastify": "^5.7.4",
-    "pg": "^8.18.0"
-  }
+ "name": "api-fastify-estudos",
+ "version": "1.0.0",
+ "type": "module",
+ "main": "server.js",
+ "scripts": {
+ "start": "node --watch server.js"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC"
 }

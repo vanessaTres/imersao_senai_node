@@ -1,22 +1,43 @@
 ###
 
-Get http://localhost:3000/usuarios
+GET http://localhost:3000/usuarios
 
 
 ###
+
 POST http://localhost:3000/usuarios
 Content-Type: application/json
 
 {
-    "nome": "Vanessa",
-    "senha": "12345"
+ "nome": "Vinicius",
+ "email": "vanessa@gmail.com",
+ "senha": "12345"
 }
 
 ###
-PUT http://localhost:3000/usuarios/2
+
+//Método, End-point
+PUT http://localhost:3000/usuarios/1
+Content-Type: application/json
+//header^
+
+//body
+{
+ "nome": "Vanessa 2",
+ "senha": "12345",
+ "email": "vanessa@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "nome": "PIKACHU'",
-    "senha": "12345"
+ "email": "vanessa@gmail.com",
+ "senha": "12345"
 }
+
+###
+
+DELETE http://localhost:3000/usuarios/
